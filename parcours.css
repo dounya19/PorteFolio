@@ -15,7 +15,7 @@
 }
 .resume .resume_left {
     width: 35%;
-    background-color: #f1e4c6;
+    background-color: #f8f1e0;
     border-right: 1px solid #af7a4e;
    
     
@@ -24,7 +24,10 @@
 
 .resume .resume_left .resume_img{
    
-    width: 100%;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 50px;
+    
     
     
   
@@ -33,6 +36,7 @@
   .resume .resume_left .resume_img img{
       width: 100%;
       display: block;
+      border-radius: 20%;
       
       
   }  
@@ -57,9 +61,13 @@
     
     color: black;
     font-weight: bold;
+    margin-top: 10px;
 
     
   }  
+  .resume .resume_subinfo{
+    margin-top: 5px;
+  }
  .resume .resume_left .resume_bottom{
     padding: 20px 30px ;
     
@@ -68,19 +76,23 @@
     padding: 10px 0;
     border-bottom: 1px solid #af7a4e;
  }
+ .resume .resume_item:las{
+  padding: 10px 0;
+  border-bottom: 1px solid #af7a4e;
+}
  
  .resume .resume_left .resume_skills .skills_list{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
  }
  .resume .resume_left .resume_skills .skills_list .skills_bar{
-  margin-top: 5px;
+  margin-top: 8px;
  }
  .resume .resume_left .resume_skills .skills_list .skills_bar p{
    position: relative;
    width: 125px;
-   height: 10px;
+   height: 8px;
    background-color:  #dcc99d;
    border-radius: 20px;
  }
@@ -96,15 +108,15 @@
  .resume .resume_left .resume_langues .Langues_list{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
  }
  .resume .resume_left .resume_langues .Langues_list .Langues_bar{
-  margin-top: 5px;
+  margin-top: 8px;
  }
  .resume .resume_left .resume_langues .Langues_list .Langues_bar p{
    position: relative;
    width: 125px;
-   height: 10px;
+   height: 8px;
    background-color:  #dcc99d;
    border-radius: 20px;
  }
@@ -121,7 +133,7 @@
  .resume .resume_right{
   width: 65%;
   padding: 20px 30px;
-  background-color: #f1e4c6;
+  background-color: #f8f1e0;
   
  }
  .resume .resume_r{
@@ -177,15 +189,6 @@
   margin-top: 5px;
   color: #af7a4eda;
  }
- .resume .resume_right .resume_download{
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 100px;
-  padding-left: 78px;
-  border: 2px solid #af7a4e;
-  border-radius: 20px;
-  border-style:groove;
- }
-
+ 
  
  
